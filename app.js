@@ -10,6 +10,7 @@ function agregarAmigo() {
     alert("Por favor ingresa un nombre");
     return;
   }
+  
   listaAmigos.push(imputAmigos.value);
   ullistaAmigos.innerHTML += `<li>${imputAmigos.value}</li>`;
   imputAmigos.value = "";
